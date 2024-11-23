@@ -8,6 +8,10 @@
   box-sizing: border-box;
 }
 
+html {
+  scroll-behavior: smooth;
+}
+
 body {
   font-family: "roboto", sans-serif;
 }
@@ -26,6 +30,7 @@ button {
   list-style: none;
   font-size: 20px;
   color: #e5e7eb;
+  text-align: left;
 }
 
 /* End Global Rules */
@@ -56,16 +61,20 @@ nav {
 .Hero {
   display: flex;
   justify-content: space-between;
+  gap: 60px;
   background-color: #1f2937;
-  padding-top: 10%;
+  padding-top: 5%;
+  padding-bottom: 5%;
 }
 
 .left button {
   background-color: #3882f6;
-  padding: 0 8% 0 8%;
+  margin-top: 18px;
+  padding: 1.7% 7.2% 1.7% 7.2%;
   font-weight: bold;
   border: none;
   border-color: #3882f6;
+  border-radius: 10px;
 }
 
 .left h1 {
@@ -74,4 +83,94 @@ nav {
   color: #f9faf8;
 }
 
+.right {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #6a7175;
+  padding: 11% 13% 11% 13%;
+}
+
+.right p {
+  white-space: nowrap;
+}
+
 /* End Hero */
+
+/* Start Content */
+
+.content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding-top: 3%;
+  padding-bottom: 7%;
+}
+
+.content h2 {
+  align-self: center;
+  padding-bottom: 5%;
+  text-align: center;
+  font-size: 38px;
+  font-weight: 900;
+  color: #1f2937;
+}
+
+.cards {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 60px;
+}
+
+.card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  max-width: 15%;
+}
+
+.card .image {
+  padding: 50%;
+  border: 5px solid #3882f6;
+  border-radius: 10px;
+}
+
+.card p {
+  padding-top: 16px;
+  font-size: 18px;
+  text-align: center;
+  color: #6a7175;
+}
+
+/* End Content */
+
+/* Start Quote */
+
+.Quote {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: #e7e8e9;
+}
+
+.quote {
+  max-width: 70%;
+  padding-top: 12%;
+  padding-bottom: 1%;
+  font-size: 36px;
+  color: #1f2937;
+  font-style: italic;
+  font-weight: 300;
+}
+
+.author {
+  color: #1f2937;
+  font-weight: bold;
+  align-self: self-end;
+  padding-right: 19%;
+  font-size: 23px;
+  padding-bottom: 10%;
+}
