@@ -17,7 +17,7 @@ body {
 }
 
 .container {
-  padding: 0 14% 0 14%;
+  padding: 0 13.9% 0 13.9%;
   margin-left: auto;
   margin-right: auto;
 }
@@ -164,6 +164,7 @@ nav {
   color: #1f2937;
   font-style: italic;
   font-weight: 300;
+  text-align: match-parent;
 }
 
 .author {
@@ -174,3 +175,71 @@ nav {
   font-size: 23px;
   padding-bottom: 10%;
 }
+
+/* End Quote */
+
+/* Start Call to Action */
+
+.Call {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  margin: 6.8% 13.9% 6.8% 13.9%;
+  background-color: #3882f6;
+  padding: 56px 133px 56px 133px;
+  border-radius: 10px;
+}
+
+.Call_left {
+  margin-right: auto;
+}
+
+.Call_left h3 {
+  color: #f9faf8;
+  font-size: 25px;
+}
+
+.Call_left p {
+  font-size: 19px;
+}
+
+.Call_right {
+  position: relative;
+  right: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 0.65% 4%;
+  background-color: #3882f6;
+  border: 2px solid white;
+  border-radius: 10px;
+}
+
+.Call_right button {
+  background-color: #3882f6;
+  border: none;
+  font-size: 20px;
+  font-weight: bold;
+  text-align: center;
+}
+
+/* End Call to Action */
+
+/* Start Footer */
+
+footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #1f2937;
+  color: #f9faf8;
+  font-size: 18px;
+}
+
+footer p {
+  padding: 4% 0 4% 0;
+}
+
+/* End Footer */
+
+/* End Page */
